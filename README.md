@@ -165,7 +165,7 @@ Este portafolio está configurado para desplegarse automáticamente a través de
    - **Branch:** `main` (o `master`)
    - **Folder:** `/ (root)`
 4. Haz clic en **Save**. En unos instantes, la web estará disponible en:
-   👉 **`https://renzooucf.github.io/`**
+   👉 **`https://renzoocf.github.io/`**
 
 ---
 
@@ -173,7 +173,7 @@ Este portafolio está configurado para desplegarse automáticamente a través de
 
 ¿Tienes una propuesta o quieres colaborar en un proyecto de software?
 
-- 🌐 **Web:** [renzooucf.github.io](https://renzooucf.github.io/)
+- 🌐 **Web:** [renzooucf.github.io](https://renzoocf.github.io/)
 - 💼 **LinkedIn:** [/in/renzo-retuerto](https://www.linkedin.com/in/renzo-retuerto-70076b350/)
 - 💻 **GitHub:** [@renzooucf](https://github.com/renzooucf)
 - 📝 **Blog Personal:** [RenzoOs](https://renzooucf.github.io/RenzoOs/)
