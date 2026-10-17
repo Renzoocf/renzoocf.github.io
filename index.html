@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renzo Retuerto — Ingeniero de Software Full-Stack | Portafolio</title>
+  <meta name="description"
+    content="Portafolio de Renzo Retuerto, ingeniero de software full-stack. Desarrollo web, APIs y automatización. Proyectos personales y profesionales, stack tecnológico y contacto directo.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tu-dominio.com/">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Renzo Retuerto — Ingeniero de Software">
+  <meta property="og:description"
+    content="Portafolio de un ingeniero de software full-stack: proyectos, stack tecnológico y contacto directo.">
+  <meta property="og:url" content="https://tu-dominio.com/">
+  <meta property="og:image" content="https://tu-dominio.com/og-image.jpg">
+  <meta property="og:locale" content="es_PE">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Renzo Retuerto — Ingeniero de Software">
+  <meta name="twitter:description"
+    content="Portafolio de un ingeniero de software full-stack: proyectos, stack tecnológico y contacto directo.">
+  <meta name="twitter:image" content="https://tu-dominio.com/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Datos estructurados: le dicen a Google que esta página es una persona/profesional -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Renzo Retuerto",
+  "jobTitle": "Ingeniero de Software",
+  "url": "https://tu-dominio.com/",
+  "sameAs": [
+    "https://renzooucf.github.io/RenzoOs/",
+    "https://github.com/renzooucf",
+    "https://www.linkedin.com/in/renzo-retuerto-70076b350/"
+  ],
+  "knowsAbout": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS"]
+}
+</script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="pictures/icon.png">
+</head>
+
+<body>
+
+  <header class="site">
+    <div class="wrap nav-row">
+      <div class="nav-loc"><b>Lima, PE</b> — GMT-5</div>
+      <div class="brand"><span>&gt;_</span> Renzo Retuerto</div>
+      <nav class="links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#stack">Stack</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="cmdkTrigger" aria-label="Abrir buscador de comandos">
+          Buscar <kbd>⌘K</kbd>
+        </button>
+        <button class="icon-btn" id="themeBtn" aria-label="Cambiar tema claro/oscuro">☾</button>
+        <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobilePanel">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#stack">Stack</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main>
+
+  <section class="hero">
+    <div class="triptych">
+      <div class="tri-col center">
+        <span class="eyebrow">Portafolio 2026</span>
+        <h1>Construyo Software<br>en Internet.</h1>
+        <p class="lede">Desarrollo herramientas digitales que resuelven problemas reales.</p>
+        <p class="tip"><b>TIP!</b> Arrastra la franja de abajo para ver en qué puedo ayudarte</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip-outer">
+    <div class="strip" id="dragStrip">
+      <div class="strip-item">
+        <div class="strip-swatch pv1"></div>
+        <h2>Desarrollo web</h2>
+        <p>Sitios y apps a medida</p>
+      </div>
+      <div class="strip-item">
+        <div class="strip-swatch pv2"></div>
+        <h2>APIs REST</h2>
+        <p>Backend sólido y documentado</p>
+      </div>
+      <div class="strip-item">
+        <div class="strip-swatch pv3"></div>
+        <h2>Automatización</h2>
+        <p>Scripts que ahorran tiempo</p>
+      </div>
+      <div class="strip-item">
+        <div class="strip-swatch pv4"></div>
+        <h2>Bases de datos</h2>
+        <p>Diseño y optimización</p>
+      </div>
+      <div class="strip-item">
+        <div class="strip-swatch pv5"></div>
+        <h2>Integraciones</h2>
+        <p>Pagos, APIs y terceros</p>
+      </div>
+      <div class="strip-item">
+        <div class="strip-swatch pv6"></div>
+        <h2>Mantenimiento</h2>
+        <p>Soporte y mejoras continuas</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="marquee" id="marquee">
+      <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
+        class="accent">&nbsp;·&nbsp;</span>
+      <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
+        class="accent">&nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <section id="sobre-mi">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>Sobre mí</h2>
+        <p class="note">$ cat sobre-mi.md<br>Un resumen rápido de quién soy y cómo trabajo.</p>
+      </div>
+      <div class="about-grid">
+        <div class="avatar reveal">
+          <img src="pictures/profile.webp" alt="Foto de Renzo Retuerto" loading="lazy">
+        </div>
+        <div class="about-bio">
+          <div class="reveal">
+            <p>Hola, me llamo Renzo. Tengo 22 años, estudio Ingeniería de Software en la UPC y me apasiona programar
+              herramientas que resuelvan problemas reales y ayuden a las personas.</p>
+            <p>Divido mi tiempo entre proyectos académicos, desarrollos personales de exploración técnica y encargos
+              profesionales para quienes buscan software ordenado, confiable y bien documentado.</p>
+          </div>
+          <div class="facts reveal">
+            <div class="fact">
+              <div class="k">Experiencia</div>
+              <div class="v">1 año</div>
+            </div>
+            <div class="fact">
+              <div class="k">Enfoque</div>
+              <div class="v">Full-stack</div>
+            </div>
+            <div class="fact">
+              <div class="k">Disponibilidad</div>
+              <div class="v">Freelance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>Stack tecnológico</h2>
+        <p class="note">$ ls tecnologias/<br>Herramientas que uso a diario, agrupadas por área.</p>
+      </div>
+      <div class="stack-grid reveal">
+        <div class="stack-col">
+          <h3>Frontend</h3>
+          <div class="pill-list">
+            <div class="pill">React <small>UI</small></div>
+            <div class="pill">TypeScript <small>Tipado</small></div>
+            <div class="pill">Next.js <small>SSR</small></div>
+            <div class="pill">Tailwind CSS <small>Estilos</small></div>
+          </div>
+        </div>
+        <div class="stack-col">
+          <h3>Backend</h3>
+          <div class="pill-list">
+            <div class="pill">Node.js <small>Runtime</small></div>
+            <div class="pill">Python <small>Scripts/API</small></div>
+            <div class="pill">PostgreSQL <small>SQL</small></div>
+            <div class="pill">Redis <small>Cache</small></div>
+          </div>
+        </div>
+        <div class="stack-col">
+          <h3>Infra & DevOps</h3>
+          <div class="pill-list">
+            <div class="pill">Docker <small>Contenedores</small></div>
+            <div class="pill">AWS <small>Cloud</small></div>
+            <div class="pill">GitHub Actions <small>CI/CD</small></div>
+            <div class="pill">Nginx <small>Servidor</small></div>
+          </div>
+        </div>
+        <div class="stack-col">
+          <h3>Herramientas</h3>
+          <div class="pill-list">
+            <div class="pill">Git <small>Control</small></div>
+            <div class="pill">Figma <small>Diseño</small></div>
+            <div class="pill">Postman <small>API</small></div>
+            <div class="pill">Linux <small>SO</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <h2>Proyectos</h2>
+        <p class="note">$ git log --oneline<br>Una muestra de trabajo personal y profesional.</p>
+      </div>
+
+      <div class="tabs reveal">
+        <button class="tab-btn active" data-tab="personal">Personales</button>
+        <button class="tab-btn" data-tab="pro">Profesionales</button>
+      </div>
+
+      <div class="proj-grid reveal active" data-panel="personal">
+        <article class="proj-card">
+          <div class="proj-thumb pv1"></div>
+          <div class="proj-top">
+            <h3>Nimbus</h3><span class="tag">Nuevo</span>
+          </div>
+          <p>Tracker de hábitos con estadísticas semanales, recordatorios y modo offline-first usando IndexedDB.</p>
+          <div class="proj-tags"><span>React</span><span>PWA</span><span>IndexedDB</span></div>
+          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-thumb pv5"></div>
+          <div class="proj-top">
+            <h3>CLI de despliegue</h3><span class="tag ghost">Personal</span>
+          </div>
+          <p>Herramienta de línea de comandos para automatizar builds y despliegues a servidores propios.</p>
+          <div class="proj-tags"><span>Go</span><span>Docker</span><span>SSH</span></div>
+          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-thumb pv3"></div>
+          <div class="proj-top">
+            <h3>Bot de soporte</h3><span class="tag ghost">Personal</span>
+          </div>
+          <p>Asistente conversacional para responder preguntas frecuentes entrenado sobre documentación propia.</p>
+          <div class="proj-tags"><span>Python</span><span>NLP</span><span>FastAPI</span></div>
+          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-thumb pv6"></div>
+          <div class="proj-top">
+            <h3>Editor colaborativo</h3><span class="tag ghost">Personal</span>
+          </div>
+          <p>Editor de texto en tiempo real con múltiples cursores, construido para aprender WebSockets a fondo.</p>
+          <div class="proj-tags"><span>WebSockets</span><span>Node.js</span></div>
+          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+        </article>
+      </div>
+
+      <div class="proj-grid" data-panel="pro">
+        <article class="proj-card">
+          <div class="proj-thumb pv2"></div>
+          <div class="proj-top">
+            <h3>Fintra</h3><span class="tag">Cliente</span>
+          </div>
+          <p>Plataforma de facturación electrónica para pymes: emisión, reportes y conciliación bancaria.</p>
+          <div class="proj-tags"><span>Next.js</span><span>PostgreSQL</span><span>AWS</span></div>
+          <div class="proj-links"><a href="#">Ver caso</a></div>
+        </article>
+        <article class="proj-card">
+          <div class="proj-thumb pv4"></div>
+          <div class="proj-top">
+            <h3>Dashboard BI</h3><span class="tag ghost">Cliente</span>
+          </div>
+          <p>Tablero de indicadores en tiempo real para un equipo de operaciones logísticas.</p>
+          <div class="proj-tags"><span>React</span><span>D3.js</span><span>Redis</span></div>
+          <div class="proj-links"><a href="#">Ver caso</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap contact-grid">
+      <div class="contact-left reveal">
+        <span class="eyebrow">Disponible para nuevos proyectos</span>
+        <h2>Hablemos.</h2>
+        <p>¿Tienes un proyecto en mente? Cuéntame qué necesitas y te respondo en menos de 48 horas.</p>
+        <div class="contact-links">
+          <a href="#" id="copyEmailBtn">Email <span class="arrow">↗</span></a>
+          <a href="https://renzooucf.github.io/RenzoOs/" target="_blank" rel="noopener">Blog <span
+              class="arrow">↗</span></a>
+          <a href="https://github.com/renzooucf" target="_blank">GitHub <span class="arrow">↗</span></a>
+          <a href="https://www.linkedin.com/in/renzo-retuerto-70076b350/" target="_blank">LinkedIn <span
+              class="arrow">↗</span></a>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="cf-name">Nombre</label>
+            <input id="cf-name" name="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-msg">Mensaje</label>
+            <textarea id="cf-msg" name="message" required></textarea>
+          </div>
+          <div class="submit-row">
+            <button type="submit" class="btn-send">Enviar mensaje</button>
+            <span class="form-msg" id="formMsg"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap foot-row">
+      <p>© 2026 Renzo Retuerto. Construido con HTML, CSS y JS.</p>
+      <a href="#top" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Volver arriba
+        ↑</a>
+    </div>
+  </footer>
+
+  <div class="cmdk-overlay" id="cmdkOverlay">
+    <div class="cmdk" role="dialog" aria-label="Buscador de comandos">
+      <div class="cmdk-input-row">
+        <span>&gt;</span>
+        <input type="text" id="cmdkInput" placeholder="Escribe un comando o busca una sección…" autocomplete="off">
+        <span class="esc">ESC</span>
+      </div>
+      <div class="cmdk-list" id="cmdkList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
