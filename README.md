@@ -3,10 +3,10 @@
 <div align="center">
 
   <!-- Badges de Estado y Tecnologías -->
-  <a href="https://renzooucf.github.io/">
+  <a href="https://renzoocf.github.io/">
     <img src="https://img.shields.io/badge/Demo%20en%20Vivo-renzooucf.github.io-BE4A28?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
   </a>
-  <a href="https://github.com/renzooucf">
+  <a href="https://github.com/Renzoocf">
     <img src="https://img.shields.io/badge/GitHub-renzooucf-191816?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
   <a href="https://www.linkedin.com/in/renzo-retuerto-70076b350/">
