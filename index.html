@@ -28,7 +28,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
   <link
     href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
     rel="stylesheet">
@@ -51,7 +52,7 @@
 </script>
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" href="pictures/icon.png">
+  <link rel="icon" type="image/webp" href="pictures/icon.webp">
 </head>
 
 <body>
@@ -86,255 +87,407 @@
 
   <main>
 
-  <section class="hero">
-    <div class="triptych">
-      <div class="tri-col center">
-        <span class="eyebrow">Portafolio 2026</span>
-        <h1>Construyo Software<br>en Internet.</h1>
-        <p class="lede">Desarrollo herramientas digitales que resuelven problemas reales.</p>
-        <p class="tip"><b>TIP!</b> Arrastra la franja de abajo para ver en qué puedo ayudarte</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="strip-outer">
-    <div class="strip" id="dragStrip">
-      <div class="strip-item">
-        <div class="strip-swatch pv1"></div>
-        <h2>Desarrollo web</h2>
-        <p>Sitios y apps a medida</p>
-      </div>
-      <div class="strip-item">
-        <div class="strip-swatch pv2"></div>
-        <h2>APIs REST</h2>
-        <p>Backend sólido y documentado</p>
-      </div>
-      <div class="strip-item">
-        <div class="strip-swatch pv3"></div>
-        <h2>Automatización</h2>
-        <p>Scripts que ahorran tiempo</p>
-      </div>
-      <div class="strip-item">
-        <div class="strip-swatch pv4"></div>
-        <h2>Bases de datos</h2>
-        <p>Diseño y optimización</p>
-      </div>
-      <div class="strip-item">
-        <div class="strip-swatch pv5"></div>
-        <h2>Integraciones</h2>
-        <p>Pagos, APIs y terceros</p>
-      </div>
-      <div class="strip-item">
-        <div class="strip-swatch pv6"></div>
-        <h2>Mantenimiento</h2>
-        <p>Soporte y mejoras continuas</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="band">
-    <div class="marquee" id="marquee">
-      <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
-        class="accent">&nbsp;·&nbsp;</span>
-      <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
-        class="accent">&nbsp;·&nbsp;</span>
-    </div>
-  </div>
-
-  <section id="sobre-mi">
-    <div class="wrap">
-      <div class="sec-head reveal">
-        <h2>Sobre mí</h2>
-        <p class="note">$ cat sobre-mi.md<br>Un resumen rápido de quién soy y cómo trabajo.</p>
-      </div>
-      <div class="about-grid">
-        <div class="avatar reveal">
-          <img src="pictures/profile.webp" alt="Foto de Renzo Retuerto" loading="lazy">
+    <section class="hero">
+      <div class="triptych">
+        <div class="tri-col center">
+          <span class="eyebrow">Portafolio 2026</span>
+          <h1>Construyo Software<br>en Internet.</h1>
+          <p class="lede">Desarrollo herramientas digitales que resuelven problemas reales.</p>
+          <p class="tip"><b>TIP!</b> Arrastra la franja de abajo para ver en qué puedo ayudarte</p>
         </div>
-        <div class="about-bio">
-          <div class="reveal">
-            <p>Hola, me llamo Renzo. Tengo 22 años, estudio Ingeniería de Software en la UPC y me apasiona programar
-              herramientas que resuelvan problemas reales y ayuden a las personas.</p>
-            <p>Divido mi tiempo entre proyectos académicos, desarrollos personales de exploración técnica y encargos
-              profesionales para quienes buscan software ordenado, confiable y bien documentado.</p>
+      </div>
+    </section>
+
+    <div class="strip-outer">
+      <div class="strip" id="dragStrip">
+        <div class="strip-item">
+          <div class="strip-swatch pv1"></div>
+          <h2>Desarrollo web</h2>
+          <p>Sitios y apps a medida</p>
+        </div>
+        <div class="strip-item">
+          <div class="strip-swatch pv2"></div>
+          <h2>APIs REST</h2>
+          <p>Backend sólido y documentado</p>
+        </div>
+        <div class="strip-item">
+          <div class="strip-swatch pv3"></div>
+          <h2>Automatización</h2>
+          <p>Scripts que ahorran tiempo</p>
+        </div>
+        <div class="strip-item">
+          <div class="strip-swatch pv4"></div>
+          <h2>Bases de datos</h2>
+          <p>Diseño y optimización</p>
+        </div>
+        <div class="strip-item">
+          <div class="strip-swatch pv5"></div>
+          <h2>Integraciones</h2>
+          <p>Pagos, APIs y terceros</p>
+        </div>
+        <div class="strip-item">
+          <div class="strip-swatch pv6"></div>
+          <h2>Mantenimiento</h2>
+          <p>Soporte y mejoras continuas</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="band">
+      <div class="marquee" id="marquee">
+        <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
+          class="accent">&nbsp;·&nbsp;</span>
+        <span class="outline">DESARROLLO</span><span class="accent">&nbsp;·&nbsp;</span><span>BACKEND</span><span
+          class="accent">&nbsp;·&nbsp;</span>
+      </div>
+    </div>
+
+    <section id="sobre-mi">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Sobre mí</h2>
+          <p class="note">$ cat sobre-mi.md<br>Un resumen rápido de quién soy y cómo trabajo.</p>
+        </div>
+        <div class="about-grid">
+          <div class="avatar reveal">
+            <img src="pictures/profile.webp" alt="Foto de Renzo Retuerto" loading="lazy">
           </div>
-          <div class="facts reveal">
-            <div class="fact">
-              <div class="k">Experiencia</div>
-              <div class="v">1 año</div>
+          <div class="about-bio">
+            <div class="reveal">
+              <p>Hola, me llamo Renzo. Tengo 22 años, estudio Ingeniería de Software en la UPC y me apasiona programar
+                herramientas que resuelvan problemas reales y ayuden a las personas.</p>
+              <p>Divido mi tiempo entre proyectos académicos, desarrollos personales de exploración técnica y encargos
+                profesionales para quienes buscan software ordenado, confiable y bien documentado.</p>
             </div>
-            <div class="fact">
-              <div class="k">Enfoque</div>
-              <div class="v">Full-stack</div>
+            <div class="facts reveal">
+              <div class="fact">
+                <div class="k">Experiencia</div>
+                <div class="v">1 año</div>
+              </div>
+              <div class="fact">
+                <div class="k">Enfoque</div>
+                <div class="v">Full-stack</div>
+              </div>
+              <div class="fact">
+                <div class="k">Disponibilidad</div>
+                <div class="v">Freelance</div>
+              </div>
             </div>
-            <div class="fact">
-              <div class="k">Disponibilidad</div>
-              <div class="v">Freelance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Stack tecnológico</h2>
+          <p class="note">$ ls tecnologias/<br>Herramientas que uso a diario, agrupadas por área.</p>
+        </div>
+        <div class="stack-grid reveal">
+          <div class="stack-col">
+            <h3>Frontend</h3>
+            <div class="pill-list">
+              <div class="pill">React <small>UI</small></div>
+              <div class="pill">TypeScript <small>Tipado</small></div>
+              <div class="pill">Next.js <small>SSR</small></div>
+              <div class="pill">Tailwind CSS <small>Estilos</small></div>
+            </div>
+          </div>
+          <div class="stack-col">
+            <h3>Backend</h3>
+            <div class="pill-list">
+              <div class="pill">Node.js <small>Runtime</small></div>
+              <div class="pill">Python <small>Scripts/API</small></div>
+              <div class="pill">PostgreSQL <small>SQL</small></div>
+              <div class="pill">Redis <small>Cache</small></div>
+            </div>
+          </div>
+          <div class="stack-col">
+            <h3>Infra & DevOps</h3>
+            <div class="pill-list">
+              <div class="pill">Docker <small>Contenedores</small></div>
+              <div class="pill">Railway <small>PaaS</small></div>
+              <div class="pill">Render <small>Cloud</small></div>
+              <div class="pill">GitHub Actions <small>CI/CD</small></div>
+            </div>
+          </div>
+          <div class="stack-col">
+            <h3>Herramientas</h3>
+            <div class="pill-list">
+              <div class="pill">Git <small>Control</small></div>
+              <div class="pill">Figma <small>Diseño</small></div>
+              <div class="pill">Postman <small>API</small></div>
+              <div class="pill">Linux <small>SO</small></div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="stack">
-    <div class="wrap">
-      <div class="sec-head reveal">
-        <h2>Stack tecnológico</h2>
-        <p class="note">$ ls tecnologias/<br>Herramientas que uso a diario, agrupadas por área.</p>
-      </div>
-      <div class="stack-grid reveal">
-        <div class="stack-col">
-          <h3>Frontend</h3>
-          <div class="pill-list">
-            <div class="pill">React <small>UI</small></div>
-            <div class="pill">TypeScript <small>Tipado</small></div>
-            <div class="pill">Next.js <small>SSR</small></div>
-            <div class="pill">Tailwind CSS <small>Estilos</small></div>
-          </div>
+        <div class="integ-subhead reveal">
+          <h3>APIs & Servicios Integrados</h3>
+          <p class="note">$ curl -I /servicios-conectados<br>Servicios externos configurados, dockerizados o integrados
+            en producción.</p>
         </div>
-        <div class="stack-col">
-          <h3>Backend</h3>
-          <div class="pill-list">
-            <div class="pill">Node.js <small>Runtime</small></div>
-            <div class="pill">Python <small>Scripts/API</small></div>
-            <div class="pill">PostgreSQL <small>SQL</small></div>
-            <div class="pill">Redis <small>Cache</small></div>
+        <div class="integ-grid reveal">
+          <div class="integ-card">
+            <div class="integ-top">
+              <h4>SUNAT UBL 2.1 <small>(Lycet / Greenter)</small></h4>
+              <span class="tag ghost">Docker · Render</span>
+            </div>
+            <p>Despliegue y containerización de microservicio en Linux Alpine. Compilación de extensiones nativas (SOAP,
+              PCNTL) y emisión de comprobantes fiscales electrónicos.</p>
           </div>
-        </div>
-        <div class="stack-col">
-          <h3>Infra & DevOps</h3>
-          <div class="pill-list">
-            <div class="pill">Docker <small>Contenedores</small></div>
-            <div class="pill">AWS <small>Cloud</small></div>
-            <div class="pill">GitHub Actions <small>CI/CD</small></div>
-            <div class="pill">Nginx <small>Servidor</small></div>
+          <div class="integ-card">
+            <div class="integ-top">
+              <h4>RENIEC / SUNAT Padrones</h4>
+              <span class="tag ghost">REST API</span>
+            </div>
+            <p>Validación y autocompletado en tiempo real de clientes y empresas mediante consulta de DNI y RUC.</p>
           </div>
-        </div>
-        <div class="stack-col">
-          <h3>Herramientas</h3>
-          <div class="pill-list">
-            <div class="pill">Git <small>Control</small></div>
-            <div class="pill">Figma <small>Diseño</small></div>
-            <div class="pill">Postman <small>API</small></div>
-            <div class="pill">Linux <small>SO</small></div>
+          <div class="integ-card">
+            <div class="integ-top">
+              <h4>WhatsApp Messaging</h4>
+              <span class="tag ghost">Deep Link</span>
+            </div>
+            <p>Generación de enlaces dinámicos para compartir comprobantes en PDF y alertas de cobranza de fiados.</p>
+          </div>
+          <div class="integ-card">
+            <div class="integ-top">
+              <h4>Supabase Cloud</h4>
+              <span class="tag ghost">PostgreSQL · RLS</span>
+            </div>
+            <p>Sincronización en segundo plano con políticas de seguridad por fila (RLS) y procedimientos almacenados
+              (RPC).</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="proyectos">
-    <div class="wrap">
-      <div class="sec-head reveal">
-        <h2>Proyectos</h2>
-        <p class="note">$ git log --oneline<br>Una muestra de trabajo personal y profesional.</p>
-      </div>
+    <section id="proyectos">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <h2>Proyectos</h2>
+          <p class="note">$ git log --oneline<br>Una muestra de trabajo personal y profesional.</p>
+        </div>
 
-      <div class="tabs reveal">
-        <button class="tab-btn active" data-tab="personal">Personales</button>
-        <button class="tab-btn" data-tab="pro">Profesionales</button>
-      </div>
+        <div class="tabs reveal">
+          <button class="tab-btn active" data-tab="personal">Personales</button>
+          <button class="tab-btn" data-tab="pro">Profesionales</button>
+        </div>
 
-      <div class="proj-grid reveal active" data-panel="personal">
-        <article class="proj-card">
-          <div class="proj-thumb pv1"></div>
-          <div class="proj-top">
-            <h3>Nimbus</h3><span class="tag">Nuevo</span>
-          </div>
-          <p>Tracker de hábitos con estadísticas semanales, recordatorios y modo offline-first usando IndexedDB.</p>
-          <div class="proj-tags"><span>React</span><span>PWA</span><span>IndexedDB</span></div>
-          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
-        </article>
-        <article class="proj-card">
-          <div class="proj-thumb pv5"></div>
-          <div class="proj-top">
-            <h3>CLI de despliegue</h3><span class="tag ghost">Personal</span>
-          </div>
-          <p>Herramienta de línea de comandos para automatizar builds y despliegues a servidores propios.</p>
-          <div class="proj-tags"><span>Go</span><span>Docker</span><span>SSH</span></div>
-          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
-        </article>
-        <article class="proj-card">
-          <div class="proj-thumb pv3"></div>
-          <div class="proj-top">
-            <h3>Bot de soporte</h3><span class="tag ghost">Personal</span>
-          </div>
-          <p>Asistente conversacional para responder preguntas frecuentes entrenado sobre documentación propia.</p>
-          <div class="proj-tags"><span>Python</span><span>NLP</span><span>FastAPI</span></div>
-          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
-        </article>
-        <article class="proj-card">
-          <div class="proj-thumb pv6"></div>
-          <div class="proj-top">
-            <h3>Editor colaborativo</h3><span class="tag ghost">Personal</span>
-          </div>
-          <p>Editor de texto en tiempo real con múltiples cursores, construido para aprender WebSockets a fondo.</p>
-          <div class="proj-tags"><span>WebSockets</span><span>Node.js</span></div>
-          <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
-        </article>
-      </div>
+        <div class="proj-grid reveal active" data-panel="personal">
+          <article class="proj-card">
+            <div class="proj-thumb pv1"></div>
+            <div class="proj-top">
+              <h3>Nimbus</h3><span class="tag">Nuevo</span>
+            </div>
+            <p>Tracker de hábitos con estadísticas semanales, recordatorios y modo offline-first usando IndexedDB.</p>
+            <div class="proj-tags"><span>React</span><span>PWA</span><span>IndexedDB</span></div>
+            <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb pv5"></div>
+            <div class="proj-top">
+              <h3>CLI de despliegue</h3><span class="tag ghost">Personal</span>
+            </div>
+            <p>Herramienta de línea de comandos para automatizar builds y despliegues a servidores propios.</p>
+            <div class="proj-tags"><span>Go</span><span>Docker</span><span>SSH</span></div>
+            <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb pv3"></div>
+            <div class="proj-top">
+              <h3>Bot de soporte</h3><span class="tag ghost">Personal</span>
+            </div>
+            <p>Asistente conversacional para responder preguntas frecuentes entrenado sobre documentación propia.</p>
+            <div class="proj-tags"><span>Python</span><span>NLP</span><span>FastAPI</span></div>
+            <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-thumb pv6"></div>
+            <div class="proj-top">
+              <h3>Editor colaborativo</h3><span class="tag ghost">Personal</span>
+            </div>
+            <p>Editor de texto en tiempo real con múltiples cursores, construido para aprender WebSockets a fondo.</p>
+            <div class="proj-tags"><span>WebSockets</span><span>Node.js</span></div>
+            <div class="proj-links"><a href="#">Ver demo</a><a href="#">Código</a></div>
+          </article>
+        </div>
 
-      <div class="proj-grid" data-panel="pro">
-        <article class="proj-card">
-          <div class="proj-thumb pv2"></div>
-          <div class="proj-top">
-            <h3>Fintra</h3><span class="tag">Cliente</span>
-          </div>
-          <p>Plataforma de facturación electrónica para pymes: emisión, reportes y conciliación bancaria.</p>
-          <div class="proj-tags"><span>Next.js</span><span>PostgreSQL</span><span>AWS</span></div>
-          <div class="proj-links"><a href="#">Ver caso</a></div>
-        </article>
-        <article class="proj-card">
-          <div class="proj-thumb pv4"></div>
-          <div class="proj-top">
-            <h3>Dashboard BI</h3><span class="tag ghost">Cliente</span>
-          </div>
-          <p>Tablero de indicadores en tiempo real para un equipo de operaciones logísticas.</p>
-          <div class="proj-tags"><span>React</span><span>D3.js</span><span>Redis</span></div>
-          <div class="proj-links"><a href="#">Ver caso</a></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="contacto">
-    <div class="wrap contact-grid">
-      <div class="contact-left reveal">
-        <span class="eyebrow">Disponible para nuevos proyectos</span>
-        <h2>Hablemos.</h2>
-        <p>¿Tienes un proyecto en mente? Cuéntame qué necesitas y te respondo en menos de 48 horas.</p>
-        <div class="contact-links">
-          <a href="#" id="copyEmailBtn">Email <span class="arrow">↗</span></a>
-          <a href="https://renzooucf.github.io/RenzoOs/" target="_blank" rel="noopener">Blog <span
-              class="arrow">↗</span></a>
-          <a href="https://github.com/renzooucf" target="_blank">GitHub <span class="arrow">↗</span></a>
-          <a href="https://www.linkedin.com/in/renzo-retuerto-70076b350/" target="_blank">LinkedIn <span
-              class="arrow">↗</span></a>
+        <div class="proj-grid" data-panel="pro">
+          <article class="proj-card">
+              <div class="proj-thumb device-stage">
+                <div class="device-phone">
+                  <img src="pictures/fiara-pos-mobile.jpg" alt="Fiara POS en smartphone - Teclado de cobro rápido">
+                </div>
+              </div>
+              <div class="proj-top">
+                <h3>Fiara POS</h3><span class="tag">Producción</span>
+              </div>
+              <p>Punto de venta (PWA) offline-first para comercio minorista en Perú. Latencia cero con IndexedDB,
+                sincronización reactiva en segundo plano con Supabase, facturación electrónica SUNAT (UBL 2.1) y
+                cuaderno
+                de fiados automatizado.</p>
+              <div class="proj-tags"><span>React
+                  19</span><span>TypeScript</span><span>IndexedDB</span><span>Supabase</span><span>SUNAT UBL 2.1</span>
+              </div>
+              <div class="proj-links">
+                <a href="https://renzoocf.github.io/fiara-pos-landing/" target="_blank" rel="noopener">Landing ↗</a>
+                <a href="https://pos-mercado-offline.vercel.app" target="_blank" rel="noopener">Abrir app ↗</a>
+                <a href="https://github.com/Renzoocf/pos-mercado-offline" target="_blank" rel="noopener">Código ↗</a>
+              </div>
+          </article>
+          <article class="proj-card">
+              <div class="proj-thumb device-stage">
+                <div class="device-browser">
+                  <div class="browser-bar">
+                    <span></span><span></span><span></span>
+                    <small>admin.fiara.pe</small>
+                  </div>
+                  <img src="pictures/fiara-admin.jpg" alt="Dashboard corporativo de Fiara Super-Admin">
+                </div>
+              </div>
+              <div class="proj-top">
+                <h3>Fiara Super-Admin</h3><span class="tag">Producción · Cloud</span>
+              </div>
+              <p>Panel corporativo y telemetría comercial para gestión multi-tienda. Ciberseguridad Zero-Trust con
+                Bcrypt,
+                9 RPCs PL/pgSQL protegidos contra ataques de fuerza bruta, monetización de licencias (Yape/Plin) y CI/CD
+                en Railway.</p>
+              <div class="proj-tags"><span>React
+                  19</span><span>TypeScript</span><span>Railway</span><span>PostgreSQL</span><span>Ciberseguridad</span>
+              </div>
+              <div class="proj-links">
+                <span class="ghost-link">Infraestructura privada 🔒</span>
+                <a href="https://renzoocf.github.io/fiara-pos-landing/" target="_blank" rel="noopener">Ecosistema Fiara
+                  ↗</a>
+              </div>
+          </article>
+          <article class="proj-card span-2">
+            <div class="proj-thumb">
+              <svg viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="grid-api" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" stroke-width="0.5"
+                      stroke-opacity="0.08" />
+                  </pattern>
+                </defs>
+                <rect width="720" height="180" fill="var(--paper-2)" />
+                <rect width="720" height="180" fill="url(#grid-api)" />
+                <rect x="20" y="14" width="680" height="22" rx="2" fill="var(--paper)" stroke="var(--line)"
+                  stroke-width="1" />
+                <circle cx="32" cy="25" r="3" fill="var(--rust)" />
+                <circle cx="41" cy="25" r="3" fill="currentColor" fill-opacity="0.3" />
+                <circle cx="50" cy="25" r="3" fill="currentColor" fill-opacity="0.3" />
+                <text x="64" y="28.5" font-family="var(--mono)" font-size="9" fill="var(--ink-soft)">MICROSERVICIO
+                  DOCKER // PIPELINE FISCAL SUNAT UBL 2.1</text>
+                <rect x="30" y="48" width="170" height="100" rx="2" fill="var(--paper)" stroke="var(--line-strong)"
+                  stroke-width="1" />
+                <text x="42" y="66" font-family="var(--mono)" font-size="8" fill="var(--rust)">[ORIGEN / CLIENTE]</text>
+                <text x="42" y="82" font-family="var(--sans)" font-size="11" font-weight="bold" fill="var(--ink)">Fiara
+                  POS (React 19)</text>
+                <text x="42" y="98" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">Payload JSON
+                  estructurado</text>
+                <text x="42" y="111" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">• Boletas /
+                  Facturas</text>
+                <text x="42" y="124" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">• Validación DNI /
+                  RUC</text>
+                <line x1="200" y1="98" x2="258" y2="98" stroke="var(--rust)" stroke-width="1.5"
+                  stroke-dasharray="3 3" />
+                <polygon points="260,98 254,94 254,102" fill="var(--rust)" />
+                <text x="230" y="90" font-family="var(--mono)" font-size="7" font-weight="bold" fill="var(--rust)"
+                  text-anchor="middle">HTTP POST</text>
+                <rect x="262" y="44" width="200" height="108" rx="2" fill="var(--paper)" stroke="var(--rust)"
+                  stroke-width="1.5" />
+                <rect x="262" y="44" width="200" height="18" rx="2" fill="var(--rust)" fill-opacity="0.12" />
+                <text x="274" y="56" font-family="var(--mono)" font-size="7.5" font-weight="bold"
+                  fill="var(--rust)">DOCKER LINUX ALPINE · RENDER</text>
+                <text x="274" y="78" font-family="var(--sans)" font-size="11" font-weight="bold" fill="var(--ink)">PHP
+                  8.1 + Greenter/Lycet</text>
+                <text x="274" y="94" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">• Extensiones:
+                  SOAP, PCNTL</text>
+                <text x="274" y="107" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">• Firma Digital
+                  Criptográfica (.pem)</text>
+                <text x="274" y="120" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">• Generador
+                  Matricial QR &amp; PDF</text>
+                <text x="274" y="136" font-family="var(--mono)" font-size="7.5" font-weight="bold"
+                  fill="#2E7D32">STATUS: LIVE (Render Cloud)</text>
+                <line x1="462" y1="98" x2="520" y2="98" stroke="var(--rust)" stroke-width="1.5"
+                  stroke-dasharray="3 3" />
+                <polygon points="522,98 516,94 516,102" fill="var(--rust)" />
+                <text x="492" y="90" font-family="var(--mono)" font-size="7" font-weight="bold" fill="var(--rust)"
+                  text-anchor="middle">SOAP XML</text>
+                <rect x="524" y="48" width="166" height="100" rx="2" fill="var(--paper)" stroke="var(--line-strong)"
+                  stroke-width="1" />
+                <text x="536" y="66" font-family="var(--mono)" font-size="8" fill="var(--rust)">[DESTINO /
+                  TRIBUTARIO]</text>
+                <text x="536" y="82" font-family="var(--sans)" font-size="11" font-weight="bold" fill="var(--ink)">SUNAT
+                  (UBL 2.1)</text>
+                <text x="536" y="98" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">Recepción y
+                  validación fiscal</text>
+                <text x="536" y="114" font-family="var(--mono)" font-size="8" font-weight="bold" fill="#2E7D32">CDR
+                  CODE: 0 (Aceptado)</text>
+                <text x="536" y="128" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)">Constancia de
+                  recepción</text>
+                <text x="360" y="166" font-family="var(--mono)" font-size="7.5" fill="var(--ink-soft)"
+                  text-anchor="middle">Retorno síncrono: CDR firmado digitalmente + Representación impresa térmica con
+                  QR para WhatsApp</text>
+              </svg>
+            </div>
+            <div class="proj-top">
+              <h3>Fiara Facturación API</h3><span class="tag ghost">DevOps / Cloud</span>
+            </div>
+            <p>Microservicio contenerizado con Docker en Linux Alpine para emisión tributaria SUNAT (UBL 2.1).
+              Compilación de extensiones nativas (SOAP, PCNTL), entorno homologado de pruebas y despliegue continuo en
+              Render.</p>
+            <div class="proj-tags"><span>Docker</span><span>Render</span><span>Linux Alpine</span><span>PHP
+                8.1</span><span>REST API</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Renzoocf/fiara-facturacion-api" target="_blank" rel="noopener">Ver repositorio
+                ↗</a>
+            </div>
+          </article>
         </div>
       </div>
-      <div class="reveal">
-        <form class="contact-form" id="contactForm">
-          <div class="field">
-            <label for="cf-name">Nombre</label>
-            <input id="cf-name" name="name" type="text" required>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap contact-grid">
+        <div class="contact-left reveal">
+          <span class="eyebrow">Disponible para nuevos proyectos</span>
+          <h2>Hablemos.</h2>
+          <p>¿Tienes un proyecto en mente? Cuéntame qué necesitas y te respondo en menos de 48 horas.</p>
+          <div class="contact-links">
+            <a href="#" id="copyEmailBtn">Email <span class="arrow">↗</span></a>
+            <a href="https://renzooucf.github.io/RenzoOs/" target="_blank" rel="noopener">Blog <span
+                class="arrow">↗</span></a>
+            <a href="https://github.com/renzooucf" target="_blank">GitHub <span class="arrow">↗</span></a>
+            <a href="https://www.linkedin.com/in/renzo-retuerto-70076b350/" target="_blank">LinkedIn <span
+                class="arrow">↗</span></a>
           </div>
-          <div class="field">
-            <label for="cf-email">Email</label>
-            <input id="cf-email" name="email" type="email" required>
-          </div>
-          <div class="field">
-            <label for="cf-msg">Mensaje</label>
-            <textarea id="cf-msg" name="message" required></textarea>
-          </div>
-          <div class="submit-row">
-            <button type="submit" class="btn-send">Enviar mensaje</button>
-            <span class="form-msg" id="formMsg"></span>
-          </div>
-        </form>
+        </div>
+        <div class="reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="field">
+              <label for="cf-name">Nombre</label>
+              <input id="cf-name" name="name" type="text" required>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" required>
+            </div>
+            <div class="field">
+              <label for="cf-msg">Mensaje</label>
+              <textarea id="cf-msg" name="message" required></textarea>
+            </div>
+            <div class="submit-row">
+              <button type="submit" class="btn-send">Enviar mensaje</button>
+              <span class="form-msg" id="formMsg"></span>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   </main>
 

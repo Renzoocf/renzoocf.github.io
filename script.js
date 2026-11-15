@@ -28,6 +28,9 @@
     { label: 'Ir a Stack tecnológico', hint: 'Sección', action: () => scrollToId('stack') },
     { label: 'Ir a Proyectos', hint: 'Sección', action: () => scrollToId('proyectos') },
     { label: 'Ir a Contacto', hint: 'Sección', action: () => scrollToId('contacto') },
+    { label: 'Ver landing page de Fiara POS', hint: 'Web', action: () => window.open('https://renzoocf.github.io/fiara-pos-landing/', '_blank') },
+    { label: 'Abrir app Fiara POS', hint: 'Producción', action: () => window.open('https://pos-mercado-offline.vercel.app', '_blank') },
+    { label: 'Ver código de Fiara POS (GitHub)', hint: 'Código', action: () => window.open('https://github.com/Renzoocf/pos-mercado-offline', '_blank') },
     { label: 'Cambiar a modo oscuro', hint: 'Tema', action: () => applyTheme('dark') },
     { label: 'Cambiar a modo claro', hint: 'Tema', action: () => applyTheme('light') },
     { label: 'Copiar email de contacto', hint: 'Contacto', action: () => navigator.clipboard?.writeText('renzoo.cf@gmail.com') },
@@ -55,8 +58,8 @@
       const item = document.createElement('div');
       item.className = 'cmdk-item' + (i === activeIndex ? ' active' : '');
       item.innerHTML = `<span>${cmd.label}</span><span class="k">${cmd.hint}</span>`;
-      item.addEventListener('mouseenter', () => { 
-        activeIndex = i; 
+      item.addEventListener('mouseenter', () => {
+        activeIndex = i;
         Array.from(cmdkList.children).forEach(c => c.classList.remove('active'));
         item.classList.add('active');
       });
@@ -186,33 +189,33 @@
       const email = form.email?.value.trim();
       const message = form.message?.value.trim();
       if (!name || !email || !message) {
-        if(formMsg) formMsg.textContent = 'Completa todos los campos.';
+        if (formMsg) formMsg.textContent = 'Completa todos los campos.';
         return;
       }
-      
-      if(formMsg) formMsg.textContent = 'Enviando mensaje...';
-      
+
+      if (formMsg) formMsg.textContent = 'Enviando mensaje...';
+
       fetch("https://formsubmit.co/ajax/renzoo.cf@gmail.com", {
-          method: "POST",
-          headers: { 
-              'Content-Type': 'application/json',
-              'Accept': 'application/json'
-          },
-          body: JSON.stringify({ nombre: name, email: email, mensaje: message })
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({ nombre: name, email: email, mensaje: message })
       })
-      .then(response => response.json())
-      .then(data => {
+        .then(response => response.json())
+        .then(data => {
           if (data.success) {
-              if(formMsg) formMsg.textContent = '¡Mensaje enviado con éxito!';
-              form.reset();
+            if (formMsg) formMsg.textContent = '¡Mensaje enviado con éxito!';
+            form.reset();
           } else {
-              if(formMsg) formMsg.textContent = 'Hubo un error al enviar.';
+            if (formMsg) formMsg.textContent = 'Hubo un error al enviar.';
           }
-      })
-      .catch(error => {
-          if(formMsg) formMsg.textContent = 'Hubo un error de conexión.';
+        })
+        .catch(error => {
+          if (formMsg) formMsg.textContent = 'Hubo un error de conexión.';
           console.error(error);
-      });
+        });
     });
   }
 
